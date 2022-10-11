@@ -12,13 +12,18 @@ h2 + p {
 } */
 
 li > a:link {
-    color:green
+    color:green;
 }
 
 li > a:visited {
-    color:red
+    color:red;
 }
 
 li > a:hover{
-    color:pink
+    color:pink;
+}
+
+li::first-letter{
+    font-style: bold;
+    font-size: 120%;
 }
